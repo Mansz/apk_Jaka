@@ -1,6 +1,6 @@
 <div id="top"></div>
 
-# Mail Management System
+# Jadawal Management System
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -54,24 +54,14 @@ This system is built with the laravel framework and MySQL database using a templ
 ## Installation 
 To run the application on your computer, please follow the following command : 
 
-1. Clone the repo
-   ```sh
-   $ git clone https://github.com/qkohst/surat_management.git
+1. composer install
    ```
-2. Change directory in project which already clone
-   ```sh
-   $ cd surat_management
-   ```
-3. Install Composer packages
-   ```sh
-   $ composer install
-   ```
-4. Create database on your computer
-5. Create a copy of your .env file 
+2. Create database on your computer
+3. Create a copy of your .env file 
    ```sh
    $ cp .env.example .env
    ```
-6. In the .env file, add database information to allow Laravel to connect to the database
+4. In the .env file, add database information to allow Laravel to connect to the database
    ```sh
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
@@ -84,39 +74,16 @@ To run the application on your computer, please follow the following command :
    ```sh
    $ php artisan key:generate
    ```
-8. Import ``manajemen_surat.sql``
 9. Running project
     ```sh
     $ php artisan serve
     ```
-<p align="right">(<a href="#top">back to top</a>)</p>
 
-<div id="screenshoot"></div>
 
-## Screenshoot 
+ 
 
-![0](https://user-images.githubusercontent.com/57386598/94008594-75851380-fdcd-11ea-9c4b-8106a94a81c1.png)
 
-![1](https://user-images.githubusercontent.com/57386598/94008605-79b13100-fdcd-11ea-983f-6e89342e3f16.png)
 
-![2](https://user-images.githubusercontent.com/57386598/94008611-7d44b800-fdcd-11ea-9301-b40ad82f967d.png)
-
-![3](https://user-images.githubusercontent.com/57386598/94008619-80d83f00-fdcd-11ea-8292-0778a54fd2d2.png)
-
-![4](https://user-images.githubusercontent.com/57386598/94008629-83d32f80-fdcd-11ea-909f-fe1b7c89b1f6.png)
-
-![5](https://user-images.githubusercontent.com/57386598/94008645-8a61a700-fdcd-11ea-8ce7-e52e8ce2e5cf.png)
-
-![6](https://user-images.githubusercontent.com/57386598/94008655-8e8dc480-fdcd-11ea-855e-b525dc141c39.png)
-
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
-
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
 
 ## About Laravel
 
